@@ -29,7 +29,6 @@ export const authOptions: NextAuthOptions = {
         } catch(e) {
           return null;
         }
-        user = { id: '8', name: 'eic' }
 
         if (!user) {
           return null;
