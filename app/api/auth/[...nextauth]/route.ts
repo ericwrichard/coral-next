@@ -19,16 +19,17 @@ export const authOptions: NextAuthOptions = {
           return null
         }
         let user = null;
-        try {
-           user = await DataStore.save(
-            new User({
-              name: 'My First Post',
-              role: 'admin'
-            })
-          )
-        } catch(e) {
-          return null;
-        }
+        // try {
+        //    user = await DataStore.save(
+        //     new User({
+        //       name: 'My First Post',
+        //       role: 'admin'
+        //     })
+        //   )
+        // } catch(e) {
+        //   return null;
+        // }
+        user = { id: 8, name: 'eic' }
 
         if (!user) {
           return null;
