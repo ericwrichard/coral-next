@@ -1,0 +1,47 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-coralapp-staging-161445-authRole",
+      "UnauthRoleArn": "arn:aws:iam::971758578024:role/amplify-coralapp-staging-161445-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::971758578024:role/amplify-coralapp-staging-161445-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-coralapp-staging-161445-deployment",
+      "UnauthRoleName": "amplify-coralapp-staging-161445-unauthRole",
+      "StackName": "amplify-coralapp-staging-161445",
+      "StackId": "arn:aws:cloudformation:us-east-2:971758578024:stack/amplify-coralapp-staging-161445/9e794ab0-e9cd-11ed-97e8-0635ce4de663",
+      "AmplifyAppId": "d2o7zpwzfkhde9"
+    }
+  },
+  "api": {
+    "coralapp": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 30,
+              "description": "api key description"
+            }
+          },
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            }
+          ]
+        },
+        "GraphQLAPIIdOutput": "zgntmu6drzhbznofhts7yiqcs4",
+        "GraphQLAPIEndpointOutput": "https://l6s4ii7amfgppasspmfluabk5q.appsync-api.us-east-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-idv2z6attjc6ni6azefnt2tv24"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-coralapp-staging-161445-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apicoralapp"
+      },
+      "lastPushTimeStamp": "2023-05-03T16:33:15.108Z",
+      "lastPushDirHash": "by8lJb1py5A0b3+lv4AtZlV8XFQ="
+    }
+  }
+}

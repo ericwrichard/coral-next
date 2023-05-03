@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "coralapp",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-coralapp-staging-161445-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/53b0907b09c2e4040f36853d6588b83f25ad0478"
+}

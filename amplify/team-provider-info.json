@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-coralapp-staging-161445-authRole",
+      "UnauthRoleArn": "arn:aws:iam::971758578024:role/amplify-coralapp-staging-161445-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::971758578024:role/amplify-coralapp-staging-161445-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-coralapp-staging-161445-deployment",
+      "UnauthRoleName": "amplify-coralapp-staging-161445-unauthRole",
+      "StackName": "amplify-coralapp-staging-161445",
+      "StackId": "arn:aws:cloudformation:us-east-2:971758578024:stack/amplify-coralapp-staging-161445/9e794ab0-e9cd-11ed-97e8-0635ce4de663",
+      "AmplifyAppId": "d2o7zpwzfkhde9"
+    }
+  }
+}
